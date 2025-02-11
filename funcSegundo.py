@@ -1,7 +1,17 @@
 import math
+
 print("insira um valor de X napar função X^2+5")
 
 X= int(input())
+
+print("Insira um valor para A")
+A = int(input())
+
+print("Insira um valor para B")
+B = int(input())
+
+print("Insira um valor para C")
+C = int(input())
 
 def simples (X):
     funcao = X * X + 5
@@ -11,7 +21,7 @@ def medio():
     resolucao = (simples(X)-5)/X
     return(resolucao)
 
-def desenharEquacacao(A,B,C):
+def desenharEquacacao( A, B ,C ):
     if A < 0:
         a = " - " + str(-A)
     elif A > 0:
@@ -28,18 +38,10 @@ def desenharEquacacao(A,B,C):
     desenhoDaFormula = " F(x) = " + a + "X^2 " + b + "X " + c
     return (desenhoDaFormula)
 
-def raizesdaFunc():
-    print("Insira um valor para A")
-    A = int(input())
+def Delta(A , B , C):
 
-    print("Insira um valor para B")
-    B = int(input())
-
-    print("Insira um valor para C")
-    C = int(input())
-
-    print(desenharEquacacao(A, B, C))
-    Delta = B*B - 4*A*C
+    print(desenharEquacacao(A, B, C ))
+    Delta = B * B - 4 * A * C
 
     x1 = ((-B) + math.sqrt(Delta)) / 2 * A
     x2 = ((-B) - math.sqrt(Delta)) / 2 * A
@@ -48,7 +50,5 @@ def raizesdaFunc():
     return (resultado)
 
 
-
 print(simples(X))
 print(medio())
-print(raizesdaFunc())
