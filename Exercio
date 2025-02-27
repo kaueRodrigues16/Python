@@ -2,7 +2,7 @@ print("Questao 1")
 listaMeses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro']
 
 print(listaMeses)
-print(60*"-")
+print(140*"-")
 
 print("Questão 2")
 
@@ -11,22 +11,39 @@ SegundoSemestre = ['jul', 'ago', 'set', 'out', 'nov', 'dez']
 UniaoSemestre = PrimeiroSemestre+SegundoSemestre;
 
 print(UniaoSemestre)
-print(60*"-")
+print(140*"-")
 
 print("Questão 3")
 ListaValores = [2200, 3400,  5750, 800, 2000, 1350]
 
 print(ListaValores[0] , ListaValores[-1] )
-print(60*"-")
+print(140*"-")
 
 print("Questão 4")
 
 Nomes=['Suzy', 'Janaina', 'Claudevan', 'Maria Clara']
-
-Nomes.append(input('Didigite um valor para a lista:'))
-Nome.insert(' Paula Fernandes')
-print(60*"-")
+Nomes.append('Paula Fernanda')
+print(Nomes)
+print(140*"-")
 
 print("Questão 5")
 Nomes2 = ['Deli', 'Apple', 'Sony', 'Acer', 'Compaq', 'Positivo', 'Lenovo']
 print(Nomes2)
+
+Nomes2[2] = 'Sony Vaio'
+Nomes2.remove('Compaq')
+print(Nomes2)
+print(140*"-")
+
+print("Questão 6")
+ListadeNumeros=[230, 430, 100, 2, 670, 1212, 321, 89, 6, 34, 20, 9, 99, 710]
+ListadeNumeros.sort(reverse=False)
+print(ListadeNumeros)
+print(140*"-")
+
+print("Questão 7")
+ListadeNumeros.sort(reverse=True)
+print(ListadeNumeros)
+print(140*"-")
+
+print("Questão 8-")
