@@ -46,4 +46,22 @@ ListadeNumeros.sort(reverse=True)
 print(ListadeNumeros)
 print(140*"-")
 
-print("Questão 8-")
+print("Questão 8")
+InsiraValor = []
+for i in range(0,10):
+    InsiraValor.append(int(input('Digite um valor')))
+
+print(InsiraValor)
+print(140*"-")
+
+
+print("Questão 10")
+
+InsiraValor2 = []
+for i in range(0,10):
+    InsiraValor2.append(int(input('Digite um valor')))
+
+resultado=sum(InsiraValor2)/len(InsiraValor2)
+print(resultado)
+
+
