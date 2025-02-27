@@ -1,0 +1,32 @@
+print("Questao 1")
+listaMeses = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro']
+
+print(listaMeses)
+print(60*"-")
+
+print("Questão 2")
+
+PrimeiroSemestre = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun']
+SegundoSemestre = ['jul', 'ago', 'set', 'out', 'nov', 'dez']
+UniaoSemestre = PrimeiroSemestre+SegundoSemestre;
+
+print(UniaoSemestre)
+print(60*"-")
+
+print("Questão 3")
+ListaValores = [2200, 3400,  5750, 800, 2000, 1350]
+
+print(ListaValores[0] , ListaValores[-1] )
+print(60*"-")
+
+print("Questão 4")
+
+Nomes=['Suzy', 'Janaina', 'Claudevan', 'Maria Clara']
+
+Nomes.append(input('Didigite um valor para a lista:'))
+Nome.insert(' Paula Fernandes')
+print(60*"-")
+
+print("Questão 5")
+Nomes2 = ['Deli', 'Apple', 'Sony', 'Acer', 'Compaq', 'Positivo', 'Lenovo']
+print(Nomes2)
