@@ -5,12 +5,18 @@ class Retangulo:
         self.largura = largura
         self.altura = altura
 
-    def aprsentar(self):
+    def caluclarArea(self):
+       area =self.altura*self.largura
+       print(area)
 
-        print(f"latgura:{ self.largura }, alutura:{ self.altura}")
+    def CalcularPerimetro(self):
+        perimetro = (self.altura+self.largura)*2
+        print(perimetro)
 
-        retangulo1 = Retangulo(4, 5)
+altura = int(input("qual a altura do retangulo"))
+largura = int(input("qual a altura do retangulo"))
 
-    calcular_area(retangulo1):
+retangulo = Retangulo(altura, largura)
 
-
+retangulo.caluclarArea()
+retangulo.calcularPerimetro()
