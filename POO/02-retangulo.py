@@ -13,10 +13,10 @@ class Retangulo:
         perimetro = (self.altura+self.largura)*2
         print(perimetro)
 
-altura = int(input("qual a altura do retangulo"))
-largura = int(input("qual a altura do retangulo"))
+altura = int(input("qual a altura do retangulo: "))
+largura = int(input("qual a altura do retangulo: "))
 
 retangulo = Retangulo(altura, largura)
 
 retangulo.caluclarArea()
-retangulo.calcularPerimetro()
+retangulo.CalcularPerimetro()
